@@ -11,17 +11,17 @@ import Classprops from './Components/Classprops';
 function App() {
   return (
     <div className="App">
-          <h1>Hello test</h1>
+          <h1>Hello test react</h1>
           <FC></FC>
           <ClassComp></ClassComp>
           <ClassComp2></ClassComp2>
           <Click></Click>
           <Counter />
           <ParentComp />
-          <Classprops name="xyz">
+          <Classprops name="test1">
               <p>child comp</p>
           </Classprops>
-          <Classprops name="why">
+          <Classprops name="test2">
               <button>click</button>
           </Classprops>
     </div>
